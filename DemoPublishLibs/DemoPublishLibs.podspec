@@ -17,17 +17,17 @@ Pod::Spec.new do |spec|
 
   spec.name         = "DemoPublishLibs"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of DemoPublishLibs."
+  spec.summary      = "This package handles reading an NFC Enabled passport using iOS 13 CoreNFC APIS DemoPublishLibs."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  #spec.description  = <<-DESC
+  #                 DESC
 
-  spec.homepage     = "http://EXAMPLE/DemoPublishLibs"
+  spec.homepage     = "https://www.joinself.com/"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,9 +52,9 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Long Pham" => "philong.bmt@gmail.com" }
+  spec.author             = { "Long Pham" => "long@joinself.com" }
   # Or just: spec.author    = "Long Pham"
-  # spec.authors            = { "Long Pham" => "philong.bmt@gmail.com" }
+  # spec.authors            = { "Long Pham" => "long@joinself.com" }
   # spec.social_media_url   = "https://twitter.com/Long Pham"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -64,7 +64,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  spec.platform     = :ios, "15.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/DemoPublishLibs.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/joinself/demo-publish-libs.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
