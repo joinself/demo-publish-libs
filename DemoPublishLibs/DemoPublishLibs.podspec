@@ -93,6 +93,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "DemoPublishLibs/**/*.{swift}"
   spec.exclude_files = "Classes/Exclude"
+  spec.swift_version = "5.0"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -135,4 +136,8 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
 
+  spec.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
