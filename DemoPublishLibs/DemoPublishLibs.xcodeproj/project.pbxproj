@@ -19,6 +19,7 @@
 /* Begin PBXFileReference section */
 		1F613BDF7500E29BF98C9C3F /* Pods-DemoPublishLibs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPublishLibs.debug.xcconfig"; path = "Target Support Files/Pods-DemoPublishLibs/Pods-DemoPublishLibs.debug.xcconfig"; sourceTree = "<group>"; };
 		630AB6B22AE8EBEC004D6A7A /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		630AB6B82AE8F90F004D6A7A /* DemoPublishLibsTest */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DemoPublishLibsTest; path = ../DemoPublishLibsTest; sourceTree = "<group>"; };
 		635183A82AE657E9007B58FB /* DemoPublishLibs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoPublishLibs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		635183AB2AE657E9007B58FB /* DemoPublishLibsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoPublishLibsApp.swift; sourceTree = "<group>"; };
 		635183AD2AE657E9007B58FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +56,7 @@
 			children = (
 				635183B92AE6633F007B58FB /* DemoPublishLibs.podspec */,
 				630AB6B22AE8EBEC004D6A7A /* LICENSE.txt */,
+				630AB6B82AE8F90F004D6A7A /* DemoPublishLibsTest */,
 				635183AA2AE657E9007B58FB /* DemoPublishLibs */,
 				635183A92AE657E9007B58FB /* Products */,
 				07C43AB2ECA6E56AE08C6B6C /* Pods */,

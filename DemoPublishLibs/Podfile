@@ -7,5 +7,5 @@ target 'DemoPublishLibs' do
 
   # Pods for DemoPublishLibs
 
-  pod 'DemoPublishLibs', :git => 'git@github.com:joinself/demo-publish-libs.git'
+  pod 'DemoPublishLibs', :git => 'https://github.com/joinself/demo-publish-libs.git'
 end
