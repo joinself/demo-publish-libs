@@ -9,7 +9,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "DemoPublishLibsTest",
-            targets: ["DemoPublishLibsTest"]),
+            targets: ["DemoPublishLibsTest", "self_ios_sdk"]),
     ],
     dependencies: [
         //        .package(url: "https://github.com/appwrite/sdk-for-swift", from: "0.1.0")
@@ -24,13 +24,10 @@ let package = Package(
                 "self_ios_sdk"
             ]
         ),
-        //        .testTarget(
-        //            name: "DemoPublishLibsTestTests",
-        //            dependencies: ["DemoPublishLibsTest"]),
-            .binaryTarget(
-                name: "self_ios_sdk",
-                url: "https://github.com/joinself/demo-publish-libs/releases/download/0.1/self_ios_sdk.xcframework.zip",
-                checksum: "094ecfdeacfbd88b1bdcd09390719dd87cab25588efe2abfe2347f3c436bbf60"
-            )
+        .binaryTarget(
+            name: "self_ios_sdk",
+            url: "https://github.com/joinself/demo-publish-libs/releases/download/0.1/self_ios_sdk.xcframework.zip",
+            checksum: "094ecfdeacfbd88b1bdcd09390719dd87cab25588efe2abfe2347f3c436bbf60"
+        )
     ]
 )
